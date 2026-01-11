@@ -383,7 +383,7 @@ Objects.Size = UDim2.new(1, 0, 1, 0)
 Objects.ZIndex = 3
 Objects.CanvasSize = UDim2.new(0, 0, 0, 0)
 Objects.ScrollBarThickness = 4
-Objects.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 234)
+Objects.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 255)
 
 UIListLayout_4.Parent = Objects
 UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
@@ -1275,7 +1275,7 @@ end)
 			tabScroller.ScrollBarThickness = 4
 			tabScroller.CanvasSize = UDim2.new(0, 0, 0, 0)
 			tabScroller.ZIndex = new_tab.ZIndex
-            tabScroller.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 234)
+            tabScroller.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 255)
             tabScroller.ScrollBarImageTransparency = 0.4
 
 			local listLayout = new_tab:FindFirstChildOfClass("UIListLayout")
